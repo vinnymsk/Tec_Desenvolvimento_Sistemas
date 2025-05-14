@@ -1,0 +1,27 @@
+Estruturas Condicionais
+
+> if | Executa um bloco de código se a condição for verdadeira.
+
+> if...else | Executa um bloco se for verdadeiro e outro se for falso.
+
+> else if | Permite múltiplas verificações condicionais em sequência
+
+-----------------------------------------------------------------------------
+
+Estruturas de repetição
+
+> While | Executa o bloco enquanto a condição for verdadeira.
+
+> For | Laço com controle de início, condição e incremento.
+
+-----------------------------------------------------------------------------
+
+Template Strings e Switch Break e Continue
+
+> Template String | Permite interpolar váriaveis em strings com crase (`).
+
+> Break | Interrompe um laço ou switch quando necessário.
+
+> Switch | Estrutura para múltiplas condições baseadas em um valor.
+
+> Continue | Pula a interação atual e continua o laço
