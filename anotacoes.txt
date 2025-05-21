@@ -25,3 +25,13 @@ Template Strings e Switch Break e Continue
 > Switch | Estrutura para múltiplas condições baseadas em um valor.
 
 > Continue | Pula a interação atual e continua o laço
+
+
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+
+
+Funções em JS
+
+Função X Algoritmo
+Função : Dá nome ao bloco de código e os reutiliza.
+Algoritmo : Execução de pequenos programas, linhas ou códigos.
