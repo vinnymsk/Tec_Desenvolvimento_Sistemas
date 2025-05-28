@@ -1,4 +1,4 @@
-Estruturas Condicionais
+// Estruturas Condicionais
 
 > if | Executa um bloco de código se a condição for verdadeira.
 
@@ -8,7 +8,7 @@ Estruturas Condicionais
 
 -----------------------------------------------------------------------------
 
-Estruturas de repetição
+// Estruturas de repetição
 
 > While | Executa o bloco enquanto a condição for verdadeira.
 
@@ -16,7 +16,7 @@ Estruturas de repetição
 
 -----------------------------------------------------------------------------
 
-Template Strings e Switch Break e Continue
+// Template Strings e Switch Break e Continue
 
 > Template String | Permite interpolar váriaveis em strings com crase (`).
 
@@ -30,8 +30,41 @@ Template Strings e Switch Break e Continue
 ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 
 
-Funções em JS
+// Funções em JS
 
 Função X Algoritmo
 Função : Dá nome ao bloco de código e os reutiliza.
 Algoritmo : Execução de pequenos programas, linhas ou códigos.
+
+
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+// Funções com return
+
+Funções podem retornar valores com a palavra-chaves return. Isso permite reutilizar o resultado da funçao em outro ponto do código.
+
+--------------------------------------------------------------------
+
+Armazenando Funções em Variáveis
+
+Em JavaScript, funções são "passageiros de primeira classe", o que significa que podem ser atribuídas a variáveis,
+passadas como argumentos e retornadas de outras funções.
+
+---------------------------------------------------------------------
+
+Passando funções como Parâmetro
+
+Você pode passar uma função como argumento para outra função. Isso também pode ser chamado como callbacks.
+
+---------------------------------------------------------------------
+
+Retornando Funções
+
+Uma função pode retornar outra função. Isso permite criar funções personalizadas ou usar técnicas como closures.
+
+--------------------------------------------------------------------
+
+ | Conceito          |       Explicação rápida
+Função com retorno      |     Usa 'return' para enviar um valor de volta
+Função com variável      |    Função anônima armazenada em variável
+Função como parâmetro     |   Permite comportamento dinâmico (callbacks)
+Função que retorna função  |  Gera funções personalizadas, conceito de closure
