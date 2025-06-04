@@ -27,6 +27,15 @@
 > Continue | Pula a interação atual e continua o laço
 
 
+
+
+
+
+
+
+
+
+
 ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 
 
@@ -68,3 +77,54 @@ Função com retorno      |     Usa 'return' para enviar um valor de volta
 Função com variável      |    Função anônima armazenada em variável
 Função como parâmetro     |   Permite comportamento dinâmico (callbacks)
 Função que retorna função  |  Gera funções personalizadas, conceito de closure
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+O que é um Array?
+
+Um array é uma estrutura de dados que armazena uma coleção de elementos (valores), acessíveis por índices numéricos.
+Em JavaScript, arrays são objetos especiais com métodos e propriedades específicas.
+
+const frutas = ['Maçã', 'Banana', 'Uva'];
+console.log(frutas[0]); // Maçã
+
+              0    1    2    3
+var notas = [9.7, 8.9, 6.5, 7.2]
+
+------------------------------------------------------------------------------
+
+Índices e elementos
+
+Os índices começam do 0.
+É possível acessar, modificar e até mesmp croar índices "pulando posições".
+
+frutas[3] = 'Abacaxi'; // Adiciona na posição 3
+
+------------------------------------------------------------------------------
+
+A Propriedade Length
+
+Representa a quantidade de elementos no array.
+
+Essa propriedade é muito útil em loops e validações.
+
+console.log(frutas.length); // 4
+
+for(let i = 0; frutas.length 3; i++) {
+console.log(frutas []);
+}
+
+
+
+push()    Adiciona elementos no final
+pop()     Remove o último elemento
+splice()  Remove ou substitui elementos
+concat()  Concatena dois arrays
+includes() Verifica se um valor está presente
+indexOf() Retorna o índice de um valor
+join()    Junta elementos de uma string
+forEach() Itera sobre os elementos
+
+for...of > RETORNA OS VALORES DO ARRAY 
+for...in > RETORNA OS INDICES DO ARRAY
